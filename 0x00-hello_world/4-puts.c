@@ -3,9 +3,9 @@
 
 int main () {
   
-char msg [] = "Programming is like building a multilingual puzzle\n"
+  char msg[] = "Programming is like building a multilingual puzzle\n";
 
-  puts(msg);
+  puts (msg);
 
  return 0;
 }  
