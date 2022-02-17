@@ -7,14 +7,20 @@
  */
 void more_numbers(void)
 {
-char x;
-int y;
+char a, b, c, i;
 
-for (y = 0; y < 10; y++)
+for (i = 0; i < 10; i++)
 {
-for (x = 0; x <= 14; x++)
+for (c = 0; c <= 14; c++)
 {
-_putchar(x);
+if (c < 10)
+b = c;
+else
+{
+a = c / 10; b = c % 10;
+_putchar('0' + a);
+}
+_putchar('0' + b);
 }
 _putchar('\n');
 }
